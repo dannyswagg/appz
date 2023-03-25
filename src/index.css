@@ -39,13 +39,16 @@ code {
   width: 100px;
 }
 
-@media screen and (width >= 300px) and (width <= 766px) {
+@media screen and (width >= 300px) and (width <= 767px) {
   .box1,
   .box2 {
     display: none;
   }
   .cord {
     margin-top: 2rem;
+  }
+  .flex-row {
+    flex-direction: column;
   }
 }
 

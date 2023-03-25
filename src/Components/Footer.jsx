@@ -6,7 +6,7 @@ const Footer = () => {
     <>
       <div className=" bg-[#ececec] px-[10%] py-20 flex justify-between bottom-0 w-full">
         <div className="relative lg:block md:hidden hidden">
-          <div className="absolute bg-[#c4c4c4] bottom-4 lg:h-[24rem] md:h-16 h-10 lg:w-96 md:w-60"></div>
+          <div className="absolute bg-[#c4c4c4] bottom-4 lg:h-[24rem] md:h-16 h-10 lg:w-[22rem] md:w-60"></div>
         </div>
         <div>
           <h1 className="font-bold text-5xl mb-4">
