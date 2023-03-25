@@ -37,8 +37,8 @@ const Products = () => {
   return (
     <>
       <div className="px-[10%] pb-20 mb-20">
-        <div className="flex justify-between">
-          <h1 className="font-bold text-2xl">Products</h1>
+        <div className="flex flex-row">
+          <h1 className="font-bold text-2xl mr-4">Products</h1>
           <input
             className="border border-black rounded px-2 py-1.5"
             type="text"
@@ -59,9 +59,11 @@ const Products = () => {
                 {items.map((product, index) => {
                   return (
                     <tr key={index}>
-                      <td className="border border-black">{product.name}</td>
+                      <td className="border py-2 border-black">
+                        {product.name}
+                      </td>
                       <td className="border border-black">{product.price}</td>
-                      <td className="flex justify-around border border-black">
+                      <td className="flex flex-row py-2 justify-around border border-black">
                         <button
                           className="bg-[#000] px-2 py-1 rounded text-white"
                           onClick={() => handleEdit(product)}
@@ -82,12 +84,14 @@ const Products = () => {
             </table>
           </div>
           <div className="bg-[#ececec] py-10">
-            <h1 className="text-[#000000] font-bold text-3xl">Header Text</h1>
+            <h1 className="text-[#000000] font-bold lg:text-3xl md:text-3xl text-3xl">
+              Header Text
+            </h1>
             <p className="mb-5">
-              Lorem ipsum, dolor sit amet consectetur <br />
-              adipisicing elit. Distinctio, optio!
+              Lorem ipsum, dolor sit amet <br />
+              adipisicing elit, optio!
             </p>
-            <form onSubmit={handleSubmit} className="px-20">
+            <form onSubmit={handleSubmit} className="px-10">
               <div>
                 <input
                   required

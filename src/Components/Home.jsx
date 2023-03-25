@@ -3,19 +3,19 @@ import React from "react";
 const Home = () => {
   return (
     <>
-      <div className="lg:px-[10%] md:px-[10%] sm:px-[10%] pb-20 mb-20">
-        <div className="grid lg:grid-cols-2 md:grid-cols-2 sm:grid-cols-1 mb-20 lg:gap-32 md:gap-16 sm:gap-8">
-          <div className="mpb-20">
-            <h1 className="font-bold text-4xl md mb-4">
+      <div className="lg:px-[10%] md:px-[10%] px-[10%] pb-20 mb-20">
+        <div className="grid lg:grid-cols-2 md:grid-cols-2 sm:grid-cols-1 mb-20 lg:gap-16 md:gap-16 sm:gap-8">
+          <div className="mb-20">
+            <h1 className="font-bold lg:text-4xl md:text-4xl text-3xl md mb-4">
               Lorem ipsum <br />
               dolor sit amet <br /> consectetur.
             </h1>
             <p className="text-[#c4c4c4] mb-5">
-              Lorem ipsum dolor sit, amet consectetur adipisicing elit. Officiis
-              deleniti repellat qui libero ipsum esse.
+              Lorem ipsum dolor sit, amet adipisicing elit. Officiis repellat
+              qui libero ipsum esse.
             </p>
-            <div className="flex">
-              <button className="bg-black text-white py-2 mr-6 px-4 rounded mb-5 font-bold">
+            <div className="flex flex-row">
+              <button className="bg-black text-white py-2 mr-4 px-3 rounded mb-5 font-bold">
                 CalltoAction
               </button>
               <button className="border border-black lg:py-2 md:py-1 sm:py-1 px-4 text-black rounded mb-5 font-bold">
@@ -23,14 +23,16 @@ const Home = () => {
               </button>
             </div>
           </div>
-          <div>
-            <div className="relative mt-20 mb-20">
-              <div className="bg-[#c4c4c4] absolute z-10 lg:w-96 md:w-60 h-96"></div>
-              <div className="bg-[#9d9d9d] absolute -top-10 lg:right-10 z-20 h-36 w-36"></div>
-            </div>
+          <div className="image-container">
+            <div className="bg-[#c4c4c4] box1"></div>
+            <div className="bg-[#9d9d9d] box2"></div>
+            {/* <div className="relative mt-20 mb-20">
+              <div className="bg-[#c4c4c4] absolute z-10 w-96 h-96"></div>
+              <div className="bg-[#9d9d9d] absolute -top-10 z-20 h-36 w-36"></div>
+            </div> */}
           </div>
         </div>
-        <div className="grid lg:grid-cols-3 md:gris-cols-3 sm:grid-cols-1 gap-5 pt-48">
+        <div className="grid lg:grid-cols-3 md:gris-cols-3 sm:grid-cols-1 gap-5 pt-32 pb-20">
           <div>
             <h1 className="font-bold text-2xl">Header Text</h1>
             <p className="text-[#c4c4c4]">

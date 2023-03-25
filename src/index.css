@@ -15,3 +15,36 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
 }
+
+.image-container {
+  position: relative;
+}
+
+.image-container div {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.image-container div:last-child {
+  margin-top: -1.5rem; /* adjust this value to control the distance between the images */
+  margin-left: 16rem;
+}
+.box1 {
+  height: 100%;
+  width: 20rem;
+}
+.box2 {
+  height: 100px;
+  width: 100px;
+}
+
+@media (max-width: 768px) {
+  .flex-row {
+    flex-direction: column;
+  }
+
+  .mr-4 {
+    margin-right: 0;
+  }
+}
