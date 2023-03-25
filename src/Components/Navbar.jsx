@@ -25,10 +25,10 @@ const Navbar = () => {
               <NavLink to="/">
                 <li className="px-4">Home</li>
               </NavLink>
-              <NavLink>
+              <NavLink to="/">
                 <li className="px-4">About</li>
               </NavLink>
-              <NavLink>
+              <NavLink to="/">
                 <li className="px-4">Services</li>
               </NavLink>
               <NavLink to="products">
@@ -36,14 +36,14 @@ const Navbar = () => {
               </NavLink>
             </ul>
             <div className="buttons font-bold lg:inline hidden">
-              <Link to="login">
+              <NavLink to="/products">
                 <button
                   className="inline-flex rounded-md mr-2 px-6 py-2 text-[#ffffff]
            bg-black duration-200 border hover:border-black"
                 >
                   CalltoAction
                 </button>
-              </Link>
+              </NavLink>
             </div>
             <div className="items-center flex">
               <div
@@ -96,7 +96,7 @@ const Navbar = () => {
               </ul>
               <div className="text-sm">
                 <ul>
-                  <Link to="login">
+                  <Link to="/products">
                     <li
                       className="my-4 mx-3 py-3 rounded-md border border-black font-bold"
                       onClick={handleNav}

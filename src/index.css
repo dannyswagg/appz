@@ -28,7 +28,7 @@ code {
 
 .image-container div:last-child {
   margin-top: -1.5rem; /* adjust this value to control the distance between the images */
-  margin-left: 16rem;
+  margin-left: 15rem;
 }
 .box1 {
   height: 100%;
@@ -39,7 +39,21 @@ code {
   width: 100px;
 }
 
-@media (max-width: 768px) {
+@media screen and (width >= 300px) and (width <= 766px) {
+  .box1,
+  .box2 {
+    display: none;
+  }
+  .cord {
+    margin-top: 2rem;
+  }
+}
+
+@media (width: 768px) {
+  .layer {
+    margin-top: 13rem;
+    text-align: right;
+  }
   .flex-row {
     flex-direction: column;
   }

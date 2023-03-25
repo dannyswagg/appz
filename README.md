@@ -1,70 +1,55 @@
-# Getting Started with Create React App
+# CRUD App with Name and Price Input Fields
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This is a simple CRUD (Create, Read, Update, Delete) application that allows you to manage a list of items with a name and price. It is built using React and utilizes useState hook for state management and Tailwind CSS for styling.
 
-## Available Scripts
+## Features
 
-In the project directory, you can run:
+    1. Add new items with a name and price
+    2. Edit existing items
+    3. Delete items
+    4 List all items with their names and prices
 
-### `npm start`
+## Getting Started
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+### Prerequisites
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+    1. Node.js
+    2. npm or yarn
 
-### `npm test`
+    ## Installing
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+    Clone the repository from bash or vscode terminal
 
-### `npm run build`
+    git clone https://github.com/dannyswagg/appz.git
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+    Install dependencies
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+npm install
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+or
 
-### `npm run eject`
+yarn install
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+## Start the app
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+npm start or yarn start
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+Open http://localhost:3000 in your browser
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+# How to Use
 
-## Learn More
+    Type in the name and price of the item you want to add in the input fields and click on the "ClicktoAction" button.
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+    To edit an existing item, click on the "Edit" button next to the item you want to edit. This will push the values back to the form input which you can now edit and add again. Edit the values as desired and click on the "Save" button.
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+    To delete an item, click on the "Delete" button next to the item you want to delete.
 
-### Code Splitting
+## Technologies Used
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+    React
+    useState hook
+    Tailwind CSS
 
-### Analyzing the Bundle Size
+# Contributing
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+If you want to contribute to this project, feel free to submit a pull request.
